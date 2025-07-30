@@ -1,7 +1,7 @@
 @extends('frontend/layout/master')
 
 @section('header')
-    <header id="gtco-header" class="gtco-cover" role="banner" style="background-image:url('{{ asset('frontend/assets/images/Header-bg1.jpg') }}');">
+    <header id="gtco-header" class="gtco-cover" role="banner" style="background-image:url('{{ asset('frontend/assets/images/Header-bg1.jpg') }}');background-repeat: no-repeat;background-size: cover;background-position: center;">
 				<div class="overlay"></div>
 				<div class="gtco-container">
 					<div class="row">
@@ -121,7 +121,7 @@
 
 			
 
-			<div id="gtco-products" class="gtco-section">
+			<div id="gtco-counter" class="gtco-section">
 				<div class="gtco-container">
 
 					<div class="row">
@@ -140,7 +140,8 @@
 								<span class="icon">
 									<i class="fas fa-id-card-alt"></i>
 								</span>
-								<span class="counter js-counter" data-from="0" data-to="22070" data-speed="5000" data-refresh-interval="50">1</span>
+
+								<span class="counter js-counter" data-from="0" data-to="22070" data-speed="5000" data-refresh-interval="50">1</span>								
 								<span class="counter-label">Successful License Registrations</span>
 
 							</div>
@@ -152,6 +153,7 @@
 								</span>
 								<span class="counter js-counter" data-from="0" data-to="97" data-speed="5000" data-refresh-interval="50">1</span>
 								<span class="counter-label">Satisfaction Rating from Users</span>
+								
 							</div>
 						</div>
 						<div class="col-md-3 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
