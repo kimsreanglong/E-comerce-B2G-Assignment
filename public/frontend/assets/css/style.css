@@ -80,8 +80,8 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 ::selection {
-  color: #fff;
-  background: #17B794;
+  color: #c2c0c0;
+  background: #C2E5F2;
 }
 
 .gtco-container {

@@ -12,4 +12,28 @@ class ServiceController extends Controller
 
         return view('frontend.service.index');
     }
+
+
+    public function register(){
+        return view('frontend.service.register');
+    }
+
+    public function renew(){
+        return view('frontend.service.renew');
+    }
+
+
+
+    public function booktest(){
+        return view('frontend.service.bookTest');
+    }
+
+
+    public function checkstatus()  {
+        return view('frontend.service.checkstatus');
+    }
+
+    public function downloadDucument(){
+        return view('frontend.service.download');
+    }
 }

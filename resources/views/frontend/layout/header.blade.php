@@ -11,31 +11,25 @@
 							<li class="has-dropdown @yield('Service_avtive')">
 								<a href="{{route('service')}}" class="">Services</a>
 								<ul class="dropdown">
-									<li><a href="#">Register for New License</a></li>
-									{{-- <li><a href="{{ route('renew') }}">Renew License</a></li>
-									<li><a href="{{ route('book_test') }}">Book Driving Test</a></li>
-									<li><a href="{{ route('check_status') }}">Check Application Status</a></li>
-									<li><a href="{{ route('download_docs') }}">Download Documents</a></li> --}}
+									<li><a href="{{route('register-new-license')}}"><i class="fas fa-id-card"></i> Register for New License</a></li>
+									<li><a href="{{route('renew')}}"><i class="fas fa-sync-alt"></i> Renew License</a></li>
+									<li><a href="{{ route('booktest') }}"><i class="fas fa-car"></i> Book Driving Test</a></li>
+									<li><a href="{{ route('checkstatus') }}"><i class="fas fa-search"></i> Check Application Status</a></li>
+									{{-- <li><a href="{{ route('downloadDucument') }}"><i class="fas fa-file-download"></i> Download Documents</a></li> --}}
 								</ul>
 							</li>
-							<li><a href="about.html">About</a></li>
+							<li class="@yield('News_avtive')"><a href="{{route('news')}}">News</a></li>
+							<li class="@yield('About_avtive')"><a href="{{route('about')}}">About</a></li>
 							
-							<li class="has-dropdown">
-								<a href="#">Dropdown</a>
-								<ul class="dropdown">
-									<li><a href="#">HTML5</a></li>
-									<li><a href="#">CSS3</a></li>
-									<li><a href="#">Sass</a></li>
-									<li><a href="#">jQuery</a></li>
-								</ul>
-							</li>
-							<li><a href="portfolio.html">Portfolio</a></li>
-							<li><a href="contact.html">Contact</a></li>
 
-							<li>
-							<a href="{{route('login')}}">
-								<i class="fas fa-user"></i> Login
-							</a>
+							<li class="has-dropdown">
+								<a href="#"><i class="fas fa-user-circle"></i> Profile</a>
+								<ul class="dropdown">
+									<li><a href="#"><i class="fas fa-user"></i> Username</a></li>
+									<li><a href="#"><i class="fas fa-cog"></i> Settings</a></li>
+									<li><a href="{{ route('login') }}"><i class="fas fa-sign-in-alt"></i> Login</a></li>
+									<li><a href="{{ route('register') }}"><i class="fas fa-user-plus"></i> Register</a></li>
+								</ul>
 							</li>
 						</ul>
 					</div>
