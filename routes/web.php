@@ -6,6 +6,7 @@ use App\Http\Controllers\Frontend\ServiceController;
 use App\Http\Controllers\Frontend\UserController;
 use App\Http\Controllers\Frontend\NewsController;
 use App\Http\Controllers\Frontend\AboutController;
+use App\Http\Controllers\Frontend\CheckoutController;
 
 // Route::get('/', function () {
 //     return view('frontend.layout.master'); // ✅ load the child view, not the master
@@ -29,6 +30,7 @@ Route::controller(ServiceController::class)->group(function(){
 Route::controller(UserController::class)->group(function(){
     Route::get('/login','index')->name('login');
     Route::get('/login/register','register')->name('register');
+    Route::get('/profile','profile')->name('profile');
 });
 
 
@@ -38,4 +40,10 @@ Route::controller(NewsController::class)->group(function(){
 
 Route::controller(AboutController::class)->group(function(){
     Route::get('/about', 'index')->name('about');
+});
+
+
+Route::controller(CheckoutController::class)->group(function(){
+    Route::get('/checkout', 'checkout')->name('checkout');
+    Route::get('/checkout/payment', 'payment')->name('payment');
 });

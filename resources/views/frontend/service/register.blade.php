@@ -227,9 +227,9 @@
                     </div>
 
                     <div class="form-group">
-                        <button type="submit" class="btn btn-success btn-block">
+                        <a  class="btn btn-success btn-block" href="{{route('checkout')}}">
                             Submit Registration
-                        </button>
+                        </a>
                     </div>
                 </form>
             </div>

@@ -47,13 +47,13 @@ body {
 }
 
 a {
-  color: #17B794;
+  color: #29407D;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #17B794;
+  color: #C2E5F2;
   outline: none;
   text-decoration: none;
 }
@@ -393,6 +393,10 @@ h1, h2, h3, h4, h5, h6, figure {
 .gtco-cover.gtco-cover-xs {
   height: 500px;
 }
+.gtco-cover.gtco-cover-xs1 {
+  height: 80px;
+}
+
 @media screen and (max-width: 768px) {
   .gtco-cover.gtco-cover-xs {
     height: inherit !important;
@@ -699,7 +703,7 @@ form label {
   display: table-cell;
   vertical-align: middle;
   font-size: 40px;
-  color: #17B794;
+  color: #29407D;
 }
 .feature-left .feature-copy {
   float: right;

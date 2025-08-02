@@ -22,10 +22,10 @@
 							<li class="@yield('About_avtive')"><a href="{{route('about')}}">About</a></li>
 							
 
-							<li class="has-dropdown">
+							<li class="has-dropdown @yield('User_avtive')">
 								<a href="#"><i class="fas fa-user-circle"></i> Profile</a>
 								<ul class="dropdown">
-									<li><a href="#"><i class="fas fa-user"></i> Username</a></li>
+									<li><a href="{{route('profile')}}"><i class="fas fa-user"></i> Username</a></li>
 									<li><a href="#"><i class="fas fa-cog"></i> Settings</a></li>
 									<li><a href="{{ route('login') }}"><i class="fas fa-sign-in-alt"></i> Login</a></li>
 									<li><a href="{{ route('register') }}"><i class="fas fa-user-plus"></i> Register</a></li>
