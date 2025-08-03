@@ -13,11 +13,11 @@
                 <div class="gtco-widget">
                     <h3>Quick Links</h3>
                     <ul class="gtco-footer-links">
-                        <li><a href="{{ route('register-new-license') }}">Register New License</a></li>
-                        <li><a href="{{ route('renew') }}">Renew License</a></li>
-                        <li><a href="{{ route('checkstatus') }}">Check Application Status</a></li>
-                        <li><a href="#">Download E-License</a></li>
-                        <li><a href="#">Privacy & Policy</a></li>
+                        <li><a href="{{ route('register-new-license') }}"><i class="fas fa-id-card-alt"></i> Register New License</a></li>
+                        <li><a href="{{ route('renew') }}"><i class="fas fa-redo-alt"></i> Renew License</a></li>
+                        <li><a href="{{ route('checkstatus') }}"><i class="fas fa-info-circle"></i> Check Application Status</a></li>
+                        <li><a href="#"><i class="fas fa-download"></i> Download E-License</a></li>
+                        <li><a href="#"><i class="fas fa-user-shield"></i> Privacy & Policy</a></li>
                     </ul>
                 </div>
             </div>
@@ -26,9 +26,9 @@
                 <div class="gtco-widget">
                     <h3>Contact Support</h3>
                     <ul class="gtco-quick-contact">
-                        <li><a href="#"><i class="icon-phone"></i> +855 23 456 789</a></li>
-                        <li><a href="#"><i class="icon-mail2"></i> support@license.gov.kh</a></li>
-                        <li><a href="#"><i class="icon-chat"></i> Live Support Chat</a></li>
+                        <li><a href="#"><i class="fas fa-phone"></i> +855 23 456 789</a></li>
+                        <li><a href="#"><i class="fas fa-envelope"></i> support@license.gov.kh</a></li>
+                        <li><a href="#"><i class="fas fa-comments"></i> Live Support Chat</a></li>
                     </ul>
                 </div>
             </div>
@@ -42,9 +42,9 @@
                     <small class="block">Developed for public convenience & service innovation.</small>
                 </p>
                 <ul class="gtco-social-icons">
-                    <li><a href="#"><i class="icon-facebook"></i></a></li>
-                    <li><a href="#"><i class="icon-telegram"></i></a></li>
-                    <li><a href="#"><i class="icon-youtube"></i></a></li>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-telegram-plane"></i></a></li>
+                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
                 </ul>
             </div>
         </div>
