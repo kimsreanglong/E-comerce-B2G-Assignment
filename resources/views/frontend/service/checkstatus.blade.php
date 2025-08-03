@@ -134,7 +134,7 @@
                     </div>
 
                     <div class="form-group">
-                        <button type="submit" class="btn btn-info btn-block">Check Status</button>
+                        <a href="#" type="submit" class="btn btn-info btn-block">Check Status</a>
                     </div>
                 </form>
 
