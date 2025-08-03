@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\frontend;
+namespace App\Http\Controllers\Frontend;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
@@ -10,30 +10,30 @@ class ServiceController extends Controller
 {
     public function index(){
 
-        return view('frontend.service.index');
+        return view('Frontend.service.index');
     }
 
 
     public function register(){
-        return view('frontend.service.register');
+        return view('Frontend.service.register');
     }
 
     public function renew(){
-        return view('frontend.service.renew');
+        return view('Frontend.service.renew');
     }
 
 
 
     public function booktest(){
-        return view('frontend.service.bookTest');
+        return view('Frontend.service.bookTest');
     }
 
 
     public function checkstatus()  {
-        return view('frontend.service.checkstatus');
+        return view('Frontend.service.checkstatus');
     }
 
     public function downloadDucument(){
-        return view('frontend.service.download');
+        return view('Frontend.service.download');
     }
 }

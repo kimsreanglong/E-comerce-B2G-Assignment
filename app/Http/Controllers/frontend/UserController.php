@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\frontend;
+namespace App\Http\Controllers\Frontend;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
@@ -9,14 +9,14 @@ class UserController extends Controller
 {
     public function index()
     {
-        return view('frontend.users.index');
+        return view('Frontend.users.index');
     }
 
     public function register(){
-        return view('frontend.users.register');
+        return view('Frontend.users.register');
     }
 
     public function  profile(){
-        return view('frontend.users.profile');
+        return view('Frontend.users.profile');
     }
 }
